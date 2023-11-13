@@ -1,0 +1,59 @@
+.healthFood__Section {
+  display: flex;
+  column-gap: 90px;
+  align-items: center;
+}
+.healthyFood__images_one {
+  position: relative;
+}
+.healthyFood__images_two {
+  position: absolute;
+  width: 411px;
+  height: 321px;
+  background-color: var(--primary--color);
+  border-radius: 10px;
+  top: 55%;
+  left: 40%;
+  /* transform: translate(60%, 100%); */
+  padding: 50px;
+}
+.healthyFood__images_two p {
+  margin-bottom: 25px;
+}
+.contact__title {
+  color: var(--neutral-01);
+  font-family: var(--primary--font);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.72px;
+  margin-bottom: 45px;
+}
+
+.healthy_title {
+  color: var(--neutral-07);
+  font-family: var(--secondary--font);
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60.5px;
+}
+.health__secend__title {
+  color: var(--neutral-07);
+  font-family: var(--primary--font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 24px 0px;
+}
+.health_para {
+  color: var(--neutral-06);
+  font-family: var(--primary--font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px;
+}

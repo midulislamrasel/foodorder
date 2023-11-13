@@ -1,0 +1,22 @@
+.menu__section {
+  margin: 92px 0px 120px 0px;
+}
+.menu__title {
+  color: var(--neutral-07);
+  font-family: var(--secondary--font);
+  text-align: center;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60.5px;
+  margin: 0px 0px 60px 0px;
+}
+.menu_card {
+  display: flex;
+  column-gap: 24px;
+  text-align: center;
+}
+.menu__card__button {
+  display: flex;
+  justify-content: center;
+}

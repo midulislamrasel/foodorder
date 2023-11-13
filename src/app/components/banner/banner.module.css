@@ -1,0 +1,22 @@
+.banner {
+  width: 100%;
+  height: 88vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner_title_and_button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner__button {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.banner__button:first-child {
+  margin-left: 20px;
+}

@@ -1,0 +1,13 @@
+.logo_text {
+  display: flex;
+  gap: 13px;
+}
+.logo_text {
+  color: #474747;
+  font-family: Playfair Display;
+  font-size: 42.667px;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  /* margin-right: 274px; */
+}

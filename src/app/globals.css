@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:wght@400;500&display=swap");
+
+:root {
+  --primary--font: "DM Sans", sans-serif;
+  --secondary--font: "Playfair Display", serif;
+  --primary--color: #474747;
+  --secondary--color: #ad343e;
+  --thard--color: #f9f9f7;
+  --neutral-01: #fff;
+  --neutral-03: #dbdfd0;
+  --neutral-07: #2c2f24;
+  --font: "116px";
+  --font-weight: "400";
+  --medium-font: "18px";
+  --medium-font-weight: "500";
+  --regular-font: "20px";
+  --regular-weight: "400";
+  --body-medium-body-1-font-size: 18px;
+  --body-medium-body-1-font-weight: 500;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,
+input {
+  outline: none;
+  border: none;
+  background: none;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+/* ======================= */
+.phone_And_Email_Secetion {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+.Ph_and_Em_Contact {
+  display: inline-flex;
+  gap: 8px;
+}
+.phone_Email_text {
+  color: #f9f9f7;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* ========================= */
+.border {
+  padding: 34px;
+  border-radius: 12px;
+  border: 1.5px solid var(--neutral-03);
+  background: var(--neutral-01);
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mtb-30 {
+  margin: 30px 0px;
+}
+.h1 {
+  color: var(--neutral-07);
+  font-family: var(--secondary--font);
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.h2 {
+  color: var(--neutral-07);
+  font-family: var(--primary--font);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+.headline_h3 {
+  color: var(--neutral-07);
+  font-family: var(---primary--font);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.72px;
+}
+.body_regular {
+  color: var(--neutral-07);
+  text-align: center;
+  font-family: var(---primary--font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}

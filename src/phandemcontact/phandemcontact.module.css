@@ -1,0 +1,22 @@
+/* .mane__phone__email {
+  display: flex;
+  align-items: center;
+} */
+
+.phone_And_Email_Secetion {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+.Ph_and_Em_Contact {
+  display: inline-flex;
+  gap: 8px;
+}
+.phone_Email_text {
+  color: #f9f9f7;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}

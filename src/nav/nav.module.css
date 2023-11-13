@@ -1,0 +1,19 @@
+.menu {
+  margin-right: 50px;
+}
+
+.menu ul {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.menu ul li a {
+  text-transform: capitalize;
+  color: var(--primary--color);
+  font-size: var(--body-regular-body-2-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
