@@ -15,17 +15,26 @@ function DelivarySectionContainer() {
         </p>
       </div>
       <div>
-        <div>
-          <p>
+        <div className={styles.Delivar__svgIcon}>
+          <p
+            style={{
+              display: "flex",
+              alignItems: "center",
+              columnGap: "20px",
+              marginBottom: "24px",
+            }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
+              width="26"
+              height="26"
               class="w-6 h-6"
-              width="16"
-              height="16"
+              fontWeight="800"
+              color="#fff"
             >
               <path
                 stroke-linecap="round"
@@ -35,7 +44,14 @@ function DelivarySectionContainer() {
             </svg>
             Delivery within 30 minutes
           </p>
-          <p>
+          <p
+            style={{
+              display: "flex",
+              alignItems: "center",
+              columnGap: "20px",
+              marginBottom: "24px",
+            }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -43,8 +59,9 @@ function DelivarySectionContainer() {
               stroke-width="1.5"
               stroke="currentColor"
               class="w-6 h-6"
-              width="16"
-              height="16"
+              width="26"
+              height="26"
+              color="#fff"
             >
               <path
                 stroke-linecap="round"
@@ -54,7 +71,14 @@ function DelivarySectionContainer() {
             </svg>
             Best Offer & Prices
           </p>
-          <p>
+          <p
+            style={{
+              display: "flex",
+              alignItems: "center",
+              columnGap: "20px",
+              marginBottom: "24px",
+            }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -62,8 +86,9 @@ function DelivarySectionContainer() {
               stroke-width="1.5"
               stroke="currentColor"
               class="w-6 h-6"
-              width="16"
-              height="16"
+              width="26"
+              height="26"
+              color="#fff"
             >
               <path
                 stroke-linecap="round"

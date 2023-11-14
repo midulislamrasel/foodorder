@@ -8,8 +8,8 @@
 }
 .banner_title_and_button {
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 0%;
+  left: 0%;
   transform: translate(-50%, -50%);
 }
 .banner__button {

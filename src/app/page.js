@@ -9,7 +9,7 @@ import Delivary from "./components/Delivary/Delivary";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Topbar></Topbar>
       <Header></Header>
       <Banner></Banner>
@@ -18,6 +18,6 @@ export default function Home() {
       <Event></Event>
       <Delivary></Delivary>
       <Footer></Footer>
-    </div>
+    </>
   );
 }

@@ -11,7 +11,7 @@ function Header() {
         <div className={styles.logo_MenuButton}>
           <Logo></Logo>
           <div className={styles.menu_button}>
-            <Menu></Menu>
+            <Menu />
             <OutlineButton
               border="1.5px solid #2C2F24"
               type="button"
